@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
     <groupId>com.aliyun.vision</groupId>
     <artifactId>viapi-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -13,6 +14,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
+        <swagger.version>2.9.2</swagger.version>
+        <aliyun.ocr.version>0.1.1</aliyun.ocr.version>
+        <aliyun.facebody.version>0.2.13</aliyun.facebody.version>
+        <aliyun.imagerecog.version>0.0.3</aliyun.imagerecog.version>
+        <aliyun.imageseg.version>0.0.8</aliyun.imageseg.version>
+        <aliyun.imageenhan.version>0.0.2</aliyun.imageenhan.version>
+        <aliyun.videoenhan.version>0.0.3</aliyun.videoenhan.version>
+        <aliyun.goodstech.version>0.0.3</aliyun.goodstech.version>
+        <aliyun.objectdet.version>0.0.3</aliyun.objectdet.version>
+        <aliyun.imgsearch.version>0.2.5</aliyun.imgsearch.version>
+        <aliyun.videorecog.version>0.0.3</aliyun.videorecog.version>
+        <aliyun.videoseg.version>0.0.5</aliyun.videoseg.version>
     </properties>
 
     <dependencies>
@@ -46,6 +59,97 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-staticdocs</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>1.9.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.4.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>ocr20191230</artifactId>
+            <version>${aliyun.ocr.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>facebody20191230</artifactId>
+            <version>${aliyun.facebody.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>imagerecog20190930</artifactId>
+            <version>${aliyun.imagerecog.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>imageseg20191230</artifactId>
+            <version>${aliyun.imageseg.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>imageenhan20190930</artifactId>
+            <version>${aliyun.imageenhan.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>goodstech20191230</artifactId>
+            <version>${aliyun.goodstech.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>objectdet20191230</artifactId>
+            <version>${aliyun.objectdet.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>imgsearch20200320</artifactId>
+            <version>${aliyun.imgsearch.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>videorecog20200320</artifactId>
+            <version>${aliyun.videorecog.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>videoseg20200320</artifactId>
+            <version>${aliyun.videoseg.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>videoenhan20200320</artifactId>
+            <version>${aliyun.videoenhan.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
     </dependencies>
 
