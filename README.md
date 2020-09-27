@@ -30,7 +30,7 @@ https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-2
 2、身份证识别调用测试
 
 ![image-20200927170208206](
-https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/%E8%BA%AB%E4%BB%BD%E8%AF%81%E8%AF%86%E5%88%AB.jpg)
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/shenfenzhengshibie.jpg)
 
 
 3、VIN码识别调用测试
