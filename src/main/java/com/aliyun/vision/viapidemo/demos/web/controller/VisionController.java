@@ -41,25 +41,6 @@ public class VisionController {
         return VO.success();
     }
 
-    @ApiOperation(value = "驾驶证识别调用测试", notes = "驾驶证识别调用测试")
-    @ApiImplicitParam(paramType = "form", name = "file", value = "文件对象", required = true, dataType = "__file")
-    @PostMapping(value = "/recognizeDriverLicense")
-    public Object recognizeDriverLicense(@ApiParam(value="文件",required=true)
-                                               @RequestParam(value = "file") MultipartFile file)  {
-        //判断文件是否为空
-        if(!file.isEmpty()) {
-            //创建输入输出流
-            InputStream inputStream = null;
-            try {
-                inputStream = file.getInputStream();
-                return visionService.recognizeDriverLicense(inputStream);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-        return VO.success();
-    }
-
     @ApiOperation(value = "行驶证识别调用测试", notes = "行驶证识别调用测试")
     @ApiImplicitParam(paramType = "form", name = "file", value = "文件对象", required = true, dataType = "__file")
     @PostMapping(value = "/recognizeDrivingLicense")
@@ -79,25 +60,6 @@ public class VisionController {
         return VO.success();
     }
 
-
-    @ApiOperation(value = "VIN码识别调用测试", notes = "VIN码识别调用测试")
-    @ApiImplicitParam(paramType = "form", name = "file", value = "文件对象", required = true, dataType = "__file")
-    @PostMapping(value = "/recognizeVINCode")
-    public Object recognizeVINCode(@ApiParam(value="文件",required=true)
-                                         @RequestParam(value = "file") MultipartFile file)  {
-        //判断文件是否为空
-        if(!file.isEmpty()) {
-            //创建输入输出流
-            InputStream inputStream = null;
-            try {
-                inputStream = file.getInputStream();
-                return visionService.recognizeVINCode(inputStream);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-        return VO.success();
-    }
 
     @ApiOperation(value = "人脸表情识别调用测试", notes = "人脸表情识别调用测试")
     @ApiImplicitParam(paramType = "form", name = "file", value = "文件对象", required = true, dataType = "__file")
