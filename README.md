@@ -1,17 +1,21 @@
 行驶证识别调用测试
 
-![image-20200927165731456](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927165731456.png)
+![image-20200927165731456](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927165731456.png)
 车牌识别调用测试
 
-![image-20200927165933804](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927165933804.png)
+![image-20200927165933804](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927165933804.png)
 
 人脸表情识别调用测试
 
-![image-20200927165814422](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927165814422.png)
+![image-20200927165814422](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927165814422.png)
 
 人脸属性识别调用测试
 
-![image-20200927165850577](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927165850577.png)
+![image-20200927165850577](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927165850577.png)
 
 
 
@@ -21,11 +25,13 @@
 
 驾驶证识别调用测试
 
-![image-20200927170104982](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927170104982.png)
+![image-20200927170104982](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927170104982.png)
 
 身份证识别调用测试
 
-![image-20200927170208206](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927170208206.png)
+![image-20200927170208206](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927170208206.png)
 
 具体响应内容
 
@@ -33,13 +39,15 @@
 
 VIN码识别调用测试
 
-![image-20200927170244354](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927170244354.png)
+![image-20200927170244354](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927170244354.png)
 
 车辆损伤识别调用测试
 
 
 
-![image-20200927170313935](https://github.com/hdcuican/viapi-demo/blob/master/images/image-20200927170313935.png)
+![image-20200927170313935](
+https://viapi-demo-bucket.oss-cn-hangzhou.aliyuncs.com/viapi-demo-images/image-20200927170313935.png)
 
 具体响应内容
 
