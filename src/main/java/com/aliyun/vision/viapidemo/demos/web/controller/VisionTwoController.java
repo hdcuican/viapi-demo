@@ -1,6 +1,8 @@
 package com.aliyun.vision.viapidemo.demos.web.controller;
 
 
+import com.aliyun.vision.viapidemo.demos.constants.ResponseEnum;
+import com.aliyun.vision.viapidemo.demos.exception.BizException;
 import com.aliyun.vision.viapidemo.demos.service.VisionService;
 import com.aliyun.vision.viapidemo.demos.vo.VO;
 import io.swagger.annotations.Api;
@@ -37,7 +39,7 @@ public class VisionTwoController {
                 inputStream = file.getInputStream();
                 return visionService.recognizeDriverLicense(inputStream);
             } catch (Exception e) {
-                e.printStackTrace();
+                throw new BizException(ResponseEnum.PARSE_FAIL);
             }
         }
         return VO.success();
@@ -56,7 +58,7 @@ public class VisionTwoController {
                 inputStream = file.getInputStream();
                 return visionService.recognizeVINCode(inputStream);
             } catch (Exception e) {
-                e.printStackTrace();
+                throw new BizException(ResponseEnum.PARSE_FAIL);
             }
         }
         return VO.success();
@@ -76,7 +78,7 @@ public class VisionTwoController {
                 inputStream = file.getInputStream();
                 return visionService.recognizeIdentityCardAdvance(inputStream);
             } catch (Exception e) {
-                e.printStackTrace();
+                throw new BizException(ResponseEnum.PARSE_FAIL);
             }
         }
         return VO.success();
@@ -95,7 +97,7 @@ public class VisionTwoController {
                 inputStream = file.getInputStream();
                 return visionService.recognizeVehicleDamage(inputStream);
             } catch (Exception e) {
-                e.printStackTrace();
+                throw new BizException(ResponseEnum.PARSE_FAIL);
             }
         }
         return VO.success();
